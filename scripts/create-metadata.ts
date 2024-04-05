@@ -13,6 +13,7 @@ import {
 } from "@metaplex-foundation/mpl-token-metadata";
 import { findMetadataPda } from "@metaplex-foundation/js";
 import fs from "fs";
+import os from "os";
 
 let connection = new Connection(clusterApiUrl("mainnet-beta"), "confirmed");
 
